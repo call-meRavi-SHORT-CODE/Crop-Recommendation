@@ -9,12 +9,14 @@ to predict the suitable crop for a given set of environmental parameters.
 
 Agriculture plays a vital role in the economy, and predicting the best crop to cultivate based on environmental factors such as temperature, humidity, pH, and rainfall can significantly impact agricultural yield and profitability. This project aims to assist farmers in making informed decisions about crop selection.
 
-## Dataset 
+![Inputs](ui.png)
+
+## Dataset 📊
 
 The crop recommendation system is trained on a dataset containing environmental parameters and corresponding crop labels. The dataset includes features such as Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH, and rainfall.
 You can find the dataset on Kaggle: [Crop Recommendation Dataset]([https://www.kaggle.com/yourusername/crop-recommendation-dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset))
 
-## Classification Models
+## Classification Models 
 
 The following classification models were implemented and evaluated for predicting the suitable crop:
 
@@ -29,7 +31,7 @@ The following classification models were implemented and evaluated for predictin
 - Gradient Boosting
 - AdaBoost
 
-## Model Evaluation
+## Model Evaluation 🔍
 
 Each model was evaluated using cross-validation and assessed based on accuracy. The model with the highest accuracy was selected for crop prediction.
 
@@ -44,7 +46,7 @@ Each model was evaluated using cross-validation and assessed based on accuracy. 
 - Gradient Boosting model with accuracy: 98.18%
 - AdaBoost model with accuracy: 14.09%
 
-  
+  ![Inputs](Comparison.png)
 
 
 ## Conclusion
